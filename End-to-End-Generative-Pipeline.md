@@ -17,3 +17,6 @@
    - "Cricket" => sports
 
 4. Large Language Model:
+   - Deep learning that understands and generate human like text
+   - It generates or guess the next words
+   - eg: "The garden is full of ?" => Flowers
