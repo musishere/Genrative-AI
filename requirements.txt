@@ -1,0 +1,31 @@
+# Core LLM frameworks
+langchain
+langchain-core
+langchain-community
+
+# Provider integrations
+langchain-openai
+langchain-google-genai
+langchain-groq
+
+# SDKs (direct usage if needed)
+openai
+groq
+google-generativeai
+
+# API framework (optional but common)
+fastapi
+uvicorn
+
+# Env & config
+python-dotenv
+pydantic
+
+# HTTP / async
+httpx
+requests
+aiohttp
+
+# Utilities
+tenacity        # retries
+tiktoken        # token counting (used by OpenAI)
