@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input",
+        "userinput"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You are an expert research assistant.\n    Summarize the research paper \"{paper_input}\" in a \"{style_input}\" tone.\n    Keep the response \"{length_input}\".\n    Address the user\u2019s request: \"{userinput}\".\n    Use clear, accurate language and avoid unrelated details.\n    ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
