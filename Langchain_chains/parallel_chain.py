@@ -50,3 +50,4 @@ This is the chat model finetuned on top of TinyLlama/TinyLlama-1.1B-intermediate
 """
 response = chain.invoke({"text": text})
 print(response)
+chain.get_graph().print_ascii()
